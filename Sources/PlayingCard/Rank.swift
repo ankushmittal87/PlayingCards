@@ -13,7 +13,6 @@ public enum Rank: Int, CaseIterable {
     case jack, queen, king, ace
 }
 
-
 // MARK: - Comparable
 /// An extension that allows comparisons between ranks.
 extension Rank: Comparable {
